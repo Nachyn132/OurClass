@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -5,13 +7,172 @@
 
 body {
     background: #393B45;
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol {
+    list-style-position: inside;
 }
 
 .header {
-    background: #D8D9De;
+    background: #6E7889;
     width: 75%;
     margin-inline: auto;
     margin-top: 50px;
     height: 100px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 60%;
+}
+
+.header__right a {
+    color: #D8D9DE;
+    font-size: 18px;
+}
+
+.header__class {
+    color: #D8D9DE;
+    font-size: 30px;
+}
+
+.header__bottom {
+    background: #646C77;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40%;
+    border-radius: 0 0 15px 15px;
+}
+
+.header__nav {
+    padding-left: 20px;
+}
+
+.header__list {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+
+.header__link {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #D8D9DE; 
+    transition: color 0.3s;
+}
+
+.header__link.active {
+    color: #F3B54A;
+    border-bottom: 2px solid #F3B54A;
+    padding-bottom: 5.5px;
+}
+
+.header__link:hover {
+    color: #F3B54A;
+}
+
+.main__block {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin-inline: auto;
+    margin-top: 20px;
+} 
+
+.main__estimation {
+    background: #6E7889;
+    border-radius: 15px;
+    width: 20%;
+    padding: 20px;
+}
+
+.main__estimation-title {
+    color: #D8D9DE;
+    font-size: 20px;
+    text-align: center;
+}
+
+.main__lessons {
+    margin: 10px 0;
+    border: #F3B54A 1px solid;
+    border-radius: 10px;
+}
+
+.main__list {
+    color: #D8D9DE;
+    list-style: none;
+    display: flex;
+}
+
+.main__list li div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__list li {
+    padding: 10px;
+}
+
+.main__list hr {
+    width: 90%;
+    margin: auto;
+    border-color: #F3B54A;
+}
+
+.main__estimation-top {
+    font-size: 30px;
+    background: #8AC054;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.main__estimation-body {
+    font-size: 13px;
+}
+
+.main__end {
+    text-align: center;
+}
+
+.main__button {
+    color: #F3B54A;
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+}
+
+.main__class {
+    background: #6E7889;
+    border-radius: 15px;
+    width: 40%;
+}
+
+.main__third-block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 25%;
+}
+
+.main__highscore {
+    background: #6E7889;
+    border-radius: 15px;
+}
+
+.main__middle-estimation {
+    background: #6E7889;
     border-radius: 15px;
 }
