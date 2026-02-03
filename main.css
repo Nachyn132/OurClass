@@ -12,6 +12,7 @@ body {
 
 a {
     text-decoration: none;
+    color: #D8D9DE;
 }
 
 ol {
@@ -95,7 +96,7 @@ ol {
 .main__estimation {
     background: #6E7889;
     border-radius: 15px;
-    width: 20%;
+    width: 25%;
     padding: 20px;
 }
 
@@ -137,12 +138,28 @@ ol {
     background: #8AC054;
     border-radius: 10px;
     text-align: center;
-    width: 85px;
-    height: 100px;
+    width: 90px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .main__estimation-body {
     font-size: 13px;
+    font-weight: bold;
+}
+
+.main__estimation-bottom {
+    margin-top: -5px;
+    font-size: 12px;
+}
+
+.main__next {
+    font-size: 35px;
+    color: #F3B54A;
+    position: relative;
+    right: 10px;
 }
 
 .main__end {
@@ -160,6 +177,10 @@ ol {
     background: #6E7889;
     border-radius: 15px;
     width: 40%;
+}
+
+.main__class {
+    
 }
 
 .main__third-block {
