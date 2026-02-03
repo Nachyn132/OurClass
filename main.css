@@ -137,6 +137,8 @@ ol {
     background: #8AC054;
     border-radius: 10px;
     text-align: center;
+    width: 85px;
+    height: 100px;
 }
 
 .main__estimation-body {
