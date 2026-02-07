@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dnevnik_10A</title>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -14,6 +14,7 @@
                 <p class="header__class">10A Класс / МБОУ СОШ №1</p>
             </div>
             <div class="header__right">
+                <i class="fa-solid fa-arrow-right-to-bracket"></i>
                 <a href="">Войти</a>
             </div>
         </div>
@@ -59,17 +60,26 @@
                 </div>
             </div>
             <div class="main__class">
-                <p>Класс</p>
+                <p class="main__class-title"><b>Класс</b></p><hr>
+                <ul class="main__class-list">
+                    <li class="main__class-el">
+                        <div class="main__class-name"><p>Оюн Начын</p></div>
+                        <div class="main__class-mid"><p>4.8</p></div>
+                        <hr class="main__class-hr">
+                    </li>
+                </ul>
+                <button class="main__show-more">Показать больше</button>
             </div>
             <div class="main__third-block">
                 <div class="main__highscore">
-                    <p>Таблица лидеров</p>
+                    <p class="main__highscore-title"><b>Таблица лидеров</b></p>
                 </div>
                 <div class="main__middle-estimation">
-                    <p>Средний балл класса</p>
+                    <p class="main__middle-title"><b>Средний балл класса</b></p>
                 </div>
             </div>
         </section>
     </main>
+    <script src="main.js"></script>
 </body>
 </html>
