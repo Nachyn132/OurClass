@@ -23,6 +23,10 @@ ul {
     list-style: none;
 }
 
+hr {
+    opacity: 0.5;
+}
+
 .header {
     width: 75%;
     margin-inline: auto;
@@ -113,7 +117,7 @@ ul {
 }
 
 .main__estimation-title {
-    color: #344A5F;
+    color: #2b2b3a;
     font-size: 20px;
     text-align: center;
 }
@@ -125,7 +129,7 @@ ul {
 }
 
 .main__list {
-    color: #344A5F;
+    color: #2b2b3a;
     list-style: none;
     display: flex;
 }
@@ -159,7 +163,7 @@ ul {
 
 .main__next {
     font-size: 30px;
-    color: #344A5F;
+    color: #2b2b3a;
     position: relative;
     right: 10px;
     top: 5px;
@@ -170,7 +174,7 @@ ul {
 }
 
 .main__button {
-    color: #344A5F;
+    color: #2b2b3a;
     border: none;
     background-color: transparent;
     font-size: 15px;
@@ -184,12 +188,8 @@ ul {
     padding: 20px;
 }
 
-.main__class hr {
-    opacity: 0.5;
-}
-
 .main__class-title {
-    color: #344A5F;
+    color: #2b2b3a;
     font-size: 20px;
     text-align: center;
 }
@@ -203,8 +203,8 @@ ul {
     margin-inline: auto;
 }
 
-.main__class-el:not(.main__class-hr) {
-    color: #344A5F;
+.main__class-el {
+    color: #2b2b3a;
     font-size: 18px;
     font-weight: 500;
     display: flex;
@@ -234,6 +234,20 @@ ul {
     border-radius: 20px;
 }
 
+.main__show-more-div {
+    display: flex;
+    justify-content: center;
+}
+
+.main__show-more {
+    color: #f4f5f6;
+    padding: 5px 20px;
+    background-color: #2b2b3a;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
 .main__third-block {
     display: flex;
     flex-direction: column;
@@ -245,12 +259,45 @@ ul {
     background: #f4f5f6;
     border-radius: 15px;
     border: 1px solid #d1d1d1;
+    padding: 20px;
 }
 
 .main__highscore-title {
-    color: #344A5F;
+    color: #2b2b3a;
     font-size: 20px;
     text-align: center;
+}
+
+.main__highscore-el {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.main__highscore-el div {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.crown-gold {
+    color: gold;
+    font-size: 20px;
+}
+
+.crown-silver {
+    color: silver;
+    font-size: 20px;
+}
+
+.crown-bronze {
+    color: #cd7f32;
+    font-size: 20px;
+}
+
+.main__highscore-name {
+    font-size: 20px;
+    color: #2b2b3a;
 }
 
 .main__middle-estimation {
@@ -260,7 +307,7 @@ ul {
 }
 
 .main__middle-title {
-    color: #344A5F;
+    color: #2b2b3a;
     font-size: 20px;
     text-align: center;
 }

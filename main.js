@@ -8,4 +8,8 @@ showMore.addEventListener('click', () => {
     const visItems = array.slice(0, items);
 
     visItems.forEach(el => el.classList.add('is-visible'));
+
+    if(visItems.length === nameLength) {
+        showMore.style.display = "none";
+    }
 });
