@@ -47,17 +47,18 @@ hr {
     border-radius: 15px 15px 0 0;
 }
 
-.header__right {
-    color: #D8D9DE;
-}
-
 .header__right a {
-    color: #D8D9DE;
+    color: white;
     font-size: 18px;
 }
 
-.header__class {
+.header__right a:hover {
     color: #D8D9DE;
+    transition: color 0.3s;
+}
+
+.header__class {
+    color: white;
     font-size: 30px;
 }
 
