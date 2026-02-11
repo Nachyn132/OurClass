@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main__block {
+    width: 30%;
+    height: 35%;
+    background: #f4f5f6;
+    text-align: center;
+    border: 1px solid #d1d1d1;
+    border-radius: 15px;
+    position: relative;
+    bottom: 50px;
+}
+
+.main__title {
+    font-size: 40px;
+    color: #D8D9DE;
+    background: #344A5F;
+    border-radius: 15px 15px 0 0;
+}
+
+.main__desc {
+    margin-top: 20px;
+    font-size: 25px;
+    color: #2b2b3a;
+}
+
+.main__inp {
+    display: flex;
+    flex-direction: column;
+}
+
+#name-input, #password-input {
+    width: 50%;
+    margin-inline: auto;
+    margin-block: 5px;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid #bdbdbd;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #2b2b3a;
+}
+
+.fa-user, .fa-lock {
+    font-size: 20px;
+}
+
+.main__button {
+    background: #344A5F;
+    color: white;
+    width: 55%;
+    margin-inline: auto;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-top: 10px;
+}
